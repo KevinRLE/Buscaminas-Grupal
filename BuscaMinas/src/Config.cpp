@@ -83,13 +83,13 @@ void Config::menuConfiguracion()
             }
         case 3:
             {
-
+                // Calculo que hace que solo se permita el 10% "Tony"
                 int maxMinas = max(1, (this ->getcolumnasTablero() * this->getfilasTablero()) / 10);
 
                 if (valorIngresado > maxMinas)
                 {
                     cout <<"\t\tEl maximo de minas que puedes colocar es el 10% del total de celdas y el minimo de 1 mina: " << maxMinas << endl;
-                    this->setminasTablero(maxMinas);
+                    this->setminasTablero(maxMinas); // aqui se ajustan las minas al maximo permitido "tony
                 }else if (valorIngresado <= 0){
                     this ->setminasTablero (1);
                 } else
