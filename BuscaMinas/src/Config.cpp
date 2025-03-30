@@ -67,7 +67,7 @@ void Config::menuConfiguracion()
                 break;
             }
         case 2:
-            {
+            { // validacion de filas y columnas, Luis
 
                 if (valorIngresado < 2) {
                     cout << "El tamaño minimo de columnas permitido es 2. Se ajustara automaticamente a 2." << endl;
@@ -91,7 +91,7 @@ void Config::menuConfiguracion()
                     cout <<"\t\tEl maximo de minas que puedes colocar es el 10% del total de celdas y el minimo de 1 mina: " << maxMinas << endl;
                     this->setminasTablero(maxMinas); // aqui se ajustan las minas al maximo permitido "tony
                 }else if (valorIngresado <= 0){
-                    this ->setminasTablero (1);
+                    this ->setminasTablero (1);// validacion de minas, Luis
                 } else
                 {
                     this->setminasTablero(valorIngresado);
