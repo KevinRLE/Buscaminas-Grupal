@@ -1,5 +1,6 @@
 //Programa Buscaminas Marco Antonio Hernandez Tevelan, Se modifico funcion puntosTotal
 
+
 #include "Tablero.h"
 #include <sstream>
 #include <iostream>
@@ -11,7 +12,7 @@ Tablero::Tablero()
 }
 Tablero::Tablero(int alturaTablero, int anchoTablero, bool modoDesarrollador)
 {
-    // Limitamos el tamaño máximo a 10x10
+    // Limitamos el tamaÃ±o mÃ¡ximo a 10x10
     if (alturaTablero > 10) {
         alturaTablero = 10;
     }
@@ -222,18 +223,19 @@ void Tablero::imprimirSeparadorEncabezado()
 		return true;
 	}
 
-	int Tablero::puntosTotal() {
-    int puntosTotal = 0;
+	int Tablero::puntosTotal() { //cambio de nombre 
+    int puntosTotal = 0; // Contador en 0
+		
 
     for (int y = 0; y < this->alturaTablero; y++) {
         for (int x = 0; x < this->anchoTablero; x++) {
             Celda celdaTemporal = this->contenidoTablero.at(y).at(x);
             if (celdaTemporal.getMinaDescubierta() && !celdaTemporal.getMina()) {
-                puntosTotal++;
+                puntosTotal++; // incremento 
             }
         }
     }
 
-    return puntosTotal;
+    return puntosTotal; // retorno 
 }
 
