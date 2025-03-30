@@ -1,7 +1,6 @@
-//Programa Buscaminas Marco Antonio Hernandez Tevelan, se agrego se agrego la opcion para que el objeto llamara puntosTotal
 #include "Juego.h"
 #include <fstream>
-#include <unistd.h> //como se colocan las minas
+#include <unistd.h>
 #include <iostream>
 #include "Tablero.h"
 
@@ -21,13 +20,13 @@ int Juego::aleatorio_en_rango(int minimo, int maximo)
 	{
 		return this->aleatorio_en_rango(0, this->tablero.getAnchoTablero() - 1);
 	}
-    //agregar parametro vidas
+
 	Juego::Juego(Tablero tablero, int cantidadMinas, int vidas)
 	{
 		this->tablero = tablero;
 		this->cantidadMinas = cantidadMinas;
 		this->colocarMinasAleatoriamente();
-		this->vidas = vidas; //agregar y declarar vidas
+		this->vidas = vidas;
 	}
 
 	void Juego::colocarMinasAleatoriamente()
@@ -55,14 +54,14 @@ int Juego::aleatorio_en_rango(int minimo, int maximo)
             cin >> fila;
             if (fila >= 1 && fila <= tablero.getAlturaTablero())
             {
-                valido = true; // Si la fila es válida, salimos del bucle
+                valido = true;
             }
             else
             {
                 cout << "Fila invalida. Debe estar entre 1 y " << tablero.getAlturaTablero() << ".\n";
             }
         }
-        return fila - 1; // Ajuste para que el índice empiece desde 0
+        return fila - 1;
     }
 
     int Juego::solicitarColumnaUsuario()
@@ -75,22 +74,22 @@ int Juego::aleatorio_en_rango(int minimo, int maximo)
             cin >> columna;
             if (columna >= 1 && columna <= tablero.getAnchoTablero())
             {
-                valido = true; // Si la columna es válida, salimos del bucle
+                valido = true;
             }
             else
             {
                 cout << "Columna invalida. Debe estar entre 1 y " << tablero.getAnchoTablero() << ".\n";
             }
         }
-        return columna - 1; // Ajuste para que el índice empiece desde 0
+        return columna - 1;
     }
-    //modificación de jugador
+
 	bool Juego::jugadorGana() {
         int celdasSeguras = (tablero.getAlturaTablero() * tablero.getAnchoTablero()) - cantidadMinas;
         return (this->tablero.puntosTotal() == celdasSeguras);
     }
 
-//implementacion de vidas y conteo de puntos
+
 void Juego::iniciar() {
     int fila, columna;
 
@@ -103,7 +102,7 @@ void Juego::iniciar() {
 
         bool respuestaAUsuario = this->tablero.descubrirMina(columna, fila);
 
-        if (!respuestaAUsuario) { // Si pisó una mina
+        if (!respuestaAUsuario) {
             this->vidas--;
 
             if (this->vidas == 0) {
@@ -115,8 +114,8 @@ void Juego::iniciar() {
             }
 
         }
-        else { // Si NO pisó una mina
-            if (this->jugadorGana()) { // Verificar victoria aquí
+        else {
+            if (this->jugadorGana()) {
                 cout << "¡Ganaste el juego!\n";
                 this->tablero.setModoDesarrollador(true);
                 this->tablero.imprimir();

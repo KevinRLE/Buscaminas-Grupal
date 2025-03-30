@@ -40,7 +40,7 @@ int main()
               	Juego juegoTemporal(Tablero(configuracionJuego.getfilasTablero(), configuracionJuego.getcolumnasTablero(), configuracionJuego.getmodoDesarrolladorTablero()), configuracionJuego.getminasTablero(), configuracionJuego.getvidasTablero());
                 juegoTemporal.iniciar();
 
-                system("pause");    //funcion para que no corra nada en el programa en el momento que no se ejecuta nada incluso de parte del usuario
+                system("pause");
                 break;
             }
         case 3: repetir = false;

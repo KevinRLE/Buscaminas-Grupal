@@ -222,18 +222,18 @@ void Tablero::imprimirSeparadorEncabezado()
 		return true;
 	}
 
-	int Tablero::puntosTotal() { //cambio de nombre
-    int puntosTotal = 0; // se inicializa en 0 el contador
+	int Tablero::puntosTotal() {
+    int puntosTotal = 0;
 
-    for (int y = 0; y < this->alturaTablero; y++) { //ya estaba eje y
-        for (int x = 0; x < this->anchoTablero; x++) { // ya estaba
-            Celda celdaTemporal = this->contenidoTablero.at(y).at(x); //celda por celdaTermporal
-            if (celdaTemporal.getMinaDescubierta() && !celdaTemporal.getMina()) { // se crea la condicion
-                puntosTotal++;                                 //Celda descubierta y sin mina !
-            } //incrementouu para el contador
+    for (int y = 0; y < this->alturaTablero; y++) {
+        for (int x = 0; x < this->anchoTablero; x++) {
+            Celda celdaTemporal = this->contenidoTablero.at(y).at(x);
+            if (celdaTemporal.getMinaDescubierta() && !celdaTemporal.getMina()) {
+                puntosTotal++;
+            }
         }
     }
 
-    return puntosTotal; //retorna las celdas abiertas sin minas
+    return puntosTotal;
 }
 

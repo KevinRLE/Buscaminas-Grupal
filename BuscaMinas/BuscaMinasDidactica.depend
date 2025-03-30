@@ -364,3 +364,42 @@
 	<sstream>
 	<iostream>
 
+1743223365 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1743223527 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\juego.h
+	"Tablero.h"
+
+1743223503 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1742568075 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\celda.h
+
+1742571259 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\config.h
+
+1742568075 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1743314262 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\config.cpp
+	"Config.h"
+	<iostream>
+	<cstdlib>
+
+1743312693 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+	<iostream>
+	"Tablero.h"
+
+1743310610 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
