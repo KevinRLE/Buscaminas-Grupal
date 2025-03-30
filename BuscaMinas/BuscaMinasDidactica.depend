@@ -1,0 +1,366 @@
+# depslib dependency file v1.0
+1680274918 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1680274797 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+	<fstream>
+
+1680274797 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+
+1679292869 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1679325748 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1679069269 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1679067804 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1679324984 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+
+1679290952 c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+
+1679325748 c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1679067804 c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1679069269 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1679290166 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+
+1679292869 source:c:\users\visitante\proyectos\didactica2k23\temporal\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1680103073 source:c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1680103073 c:\users\visitante\proyectos\didactica2k23\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\juego.h
+	"Tablero.h"
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\celda.h
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\include\config.h
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k23\clases\prograuno2k23\juegos\buscaminasdidactica\buscaminasdidactica\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1712588864 source:c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\juego.h
+	"Tablero.h"
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\celda.h
+
+1683552178 c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\config.h
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1712325746 source:c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+
+1683552178 source:c:\users\soporte\documents\profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1712588864 source:c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\juego.h
+	"Tablero.h"
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\celda.h
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\include\config.h
+
+1683552178 source:c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1683552178 source:c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1712325746 source:c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+
+1683552178 source:c:\users\soporte\documents\2.profesional\umg\didactica2k24\prograuno2k24\8. juegos\buscaminas\buscaminas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1712588864 source:c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\include\juego.h
+	"Tablero.h"
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\include\celda.h
+
+1683552178 c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\include\config.h
+
+1683552178 source:c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1683552178 source:c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1712325746 source:c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+
+1683552178 source:c:\users\soporte\documents\2.profesional\umg\didactica2k25\prograuno2k25\8. juegos\buscaminas\buscaminas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1742789564 source:c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1742789943 c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\include\juego.h
+	"Tablero.h"
+
+1742571259 c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1742568075 c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\include\celda.h
+
+1742571259 c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\include\config.h
+
+1742568075 source:c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1742790371 source:c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\src\config.cpp
+	<iostream>
+	<unistd.h>
+	"Config.h"
+
+1742568075 source:c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+
+1742571259 source:c:\users\usuario\documents\progra\programación 1\prograuno2k25\8. juegos\buscaminas\buscaminas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1742568075 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1742568075 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\include\celda.h
+
+1743215678 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\src\config.cpp
+	"Config.h"
+	<iostream>
+	<cstdlib>
+
+1742571259 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\include\config.h
+
+1743309976 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1743223503 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1743223365 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1743223527 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\include\juego.h
+	"Tablero.h"
+
+1743226131 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+	<iostream>
+	"Tablero.h"
+
+1743223365 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1743223527 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\include\juego.h
+	"Tablero.h"
+
+1743223503 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1742568075 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\include\celda.h
+
+1742571259 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\include\config.h
+
+1742568075 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1743311258 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+	<iostream>
+	"Tablero.h"
+
+1743310610 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
+1743310790 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas\src\config.cpp
+	"Config.h"
+	<iostream>
+	<cstdlib>
+
+1743223365 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\main.cpp
+	<iostream>
+	<unistd.h>
+	"Juego.h"
+	"Config.h"
+
+1743223527 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\include\juego.h
+	"Tablero.h"
+
+1743223503 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\include\tablero.h
+	<iostream>
+	<vector>
+	"Celda.h"
+
+1742568075 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\include\celda.h
+
+1742571259 c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\include\config.h
+
+1742568075 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\src\celda.cpp
+	"Celda.h"
+	<iostream>
+
+1743313970 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\src\config.cpp
+	"Config.h"
+	<iostream>
+	<cstdlib>
+
+1743312693 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\src\juego.cpp
+	"Juego.h"
+	<fstream>
+	<unistd.h>
+	<iostream>
+	"Tablero.h"
+
+1743310610 source:c:\users\usuario\documents\progra\programación 1\progrmacion-1-tareas\8. juegos\buscaminas\buscaminas - copia validaciones filas columnas y correcciones ciclo\src\tablero.cpp
+	"Tablero.h"
+	<sstream>
+	<iostream>
+
