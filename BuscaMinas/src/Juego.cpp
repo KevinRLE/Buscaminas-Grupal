@@ -89,7 +89,7 @@ int Juego::aleatorio_en_rango(int minimo, int maximo)
         return (this->tablero.puntosTotal() == celdasSeguras);
     }
 
-
+//Implementacion de vidas por kevin
 void Juego::iniciar() {
     int fila, columna;
 
@@ -116,7 +116,7 @@ void Juego::iniciar() {
         }
         else {
             if (this->jugadorGana()) {
-                cout << "¡Ganaste el juego!\n";
+                cout << "Â¡Ganaste el juego!\n";
                 this->tablero.setModoDesarrollador(true);
                 this->tablero.imprimir();
                 cout << "Ganaste estos puntos: " << this->tablero.puntosTotal() << endl;
