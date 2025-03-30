@@ -109,7 +109,7 @@ void Juego::iniciar() {
                 cout << "Te quedaste sin vidas. Perdiste el juego.\n";
                 this->tablero.setModoDesarrollador(true);
                 this->tablero.imprimir();
-                cout << "Acumulaste estos puntos: " << this->tablero.puntosTotal() << endl;
+                cout << "Acumulaste estos puntos: " << this->tablero.puntosTotal() << endl;//Se agrega puntero
                 return;
             }
 
@@ -119,9 +119,9 @@ void Juego::iniciar() {
                 cout << "¡Ganaste el juego!\n";
                 this->tablero.setModoDesarrollador(true);
                 this->tablero.imprimir();
-                cout << "Ganaste estos puntos: " << this->tablero.puntosTotal() << endl;
-                return;
-            }
+                cout << "Ganaste estos puntos: " << this->tablero.puntosTotal() << endl; //Se agrego para pder ver el puntero 
+                return;          //El objeto llama a puntosTotal
+            }			//retornan los puntos a puntos para que el Uusuario los vea
         }
     }
 }
