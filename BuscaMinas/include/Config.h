@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-
+//atributos y prototipos de los metodos
 class Config
 {
     public:

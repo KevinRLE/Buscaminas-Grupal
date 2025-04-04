@@ -25,7 +25,7 @@ class Tablero
         bool colocarMina(int x, int y);
         bool descubrirMina(int x, int y);
         int contarCeldasSinMinasYSinDescubrir();
-        int puntosTotal();
+        int puntosTotal(); //score
 
     protected:
 

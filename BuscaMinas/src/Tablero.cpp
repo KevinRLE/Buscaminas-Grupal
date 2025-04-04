@@ -1,6 +1,5 @@
 //Programa Buscaminas Marco Antonio Hernandez Tevelan, Se modifico funcion puntosTotal
 
-
 #include "Tablero.h"
 #include <sstream>
 #include <iostream>
@@ -12,7 +11,7 @@ Tablero::Tablero()
 }
 Tablero::Tablero(int alturaTablero, int anchoTablero, bool modoDesarrollador)
 {
-    // Limitamos el tamaÃ±o mÃ¡ximo a 10x10
+    // Limitamos el tamaño máximo a 10x10
     if (alturaTablero > 10) {
         alturaTablero = 10;
     }
@@ -223,19 +222,18 @@ void Tablero::imprimirSeparadorEncabezado()
 		return true;
 	}
 
-	int Tablero::puntosTotal() { //cambio de nombre 
-    int puntosTotal = 0; // Contador en 0
-		
+	int Tablero::puntosTotal() { //cambio de nombre
+    int puntosTotal = 0; // se inicializa en 0 el contador
 
-    for (int y = 0; y < this->alturaTablero; y++) {
-        for (int x = 0; x < this->anchoTablero; x++) {
-            Celda celdaTemporal = this->contenidoTablero.at(y).at(x);
-            if (celdaTemporal.getMinaDescubierta() && !celdaTemporal.getMina()) {
-                puntosTotal++; // incremento 
-            }
+    for (int y = 0; y < this->alturaTablero; y++) { //ya estaba eje y
+        for (int x = 0; x < this->anchoTablero; x++) { // ya estaba
+            Celda celdaTemporal = this->contenidoTablero.at(y).at(x); //celda por celdaTermporal
+            if (celdaTemporal.getMinaDescubierta() && !celdaTemporal.getMina()) { // se crea la condicion
+                puntosTotal++;                                 //Celda descubierta y sin mina !
+            } //incrementouu para el contador
         }
     }
 
-    return puntosTotal; // retorno 
+    return puntosTotal; //retorna las celdas abiertas sin minas
 }
 

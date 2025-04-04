@@ -364,42 +364,59 @@
 	<sstream>
 	<iostream>
 
-1743223365 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\main.cpp
+1743223365 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\main.cpp
 	<iostream>
 	<unistd.h>
 	"Juego.h"
 	"Config.h"
 
-1743223527 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\juego.h
+1743635428 c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\include\juego.h
 	"Tablero.h"
 
-1743223503 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\tablero.h
+1743223503 c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\include\tablero.h
 	<iostream>
 	<vector>
 	"Celda.h"
 
-1742568075 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\celda.h
+1742568075 c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\include\celda.h
 
-1742571259 c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\include\config.h
+1742571259 c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\include\config.h
 
-1742568075 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\celda.cpp
+1742568075 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\src\celda.cpp
 	"Celda.h"
 	<iostream>
 
-1743314262 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\config.cpp
+1743314262 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\src\config.cpp
 	"Config.h"
 	<iostream>
 	<cstdlib>
 
-1743312693 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\juego.cpp
+1743312693 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\src\juego.cpp
 	"Juego.h"
 	<fstream>
 	<unistd.h>
 	<iostream>
 	"Tablero.h"
 
-1743310610 source:c:\users\usuario\desktop\kevin\programación 1\entregas\buscaminas\src\tablero.cpp
+1743310610 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\src\tablero.cpp
 	"Tablero.h"
 	<sstream>
 	<iostream>
+
+1743634308 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\recordmanager.cpp
+	"RecordManager.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+
+1743634281 c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\recordmanager.h
+	<vector>
+	<string>
+	"Usuario.h"
+
+1743634236 c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\usuario.h
+	<string>
+
+1743634261 source:c:\users\lava2\documents\programacion\programacion_1\programacion\laboratorio sobre bibliotecas\entregas\buscaminas\usuario.cpp
+	"Usuario.h"
 
